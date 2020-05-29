@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a portfolio landing page for my programming portfolio. You may view the published site on [GitHub Pages]().
+This is a portfolio landing page for my programming portfolio. It includes examples of my work as well as information about my education, background, and interests. You may view the published site on [GitHub Pages]().
 
 ## Setup/Installation Requirements
 

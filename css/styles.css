@@ -1,12 +1,12 @@
 .content {
   margin: 0 auto;
-  width: 800px;
+  width: 900px;
   padding: 60px 0;
 }
 
 header {
   background-color: cornflowerblue;
-  padding: 30px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -14,17 +14,27 @@ h1 {
   font-weight: 200px;
   font-family: 'Fredoka One', cursive;
   font-weight: normal;
-  font-size: 3em;
-  color: aliceblue;
-}
-
-h2, h3, p, ul {
-  font-family: 'Roboto', sans-serif;
-  color: #343434;
+  font-size: 5em;
+  color: whitesmoke;
 }
 
 header p {
-  color: aliceblue;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700px;
+  font-style: bold;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #343434;
+  font-size: 2em;
+}
+
+h3, p, ul {
+  font-family: 'Roboto', sans-serif;
+  color: #343434;
 }
 
 body {
@@ -53,10 +63,25 @@ img {
   background-color: tomato;
 }
 
+.about p {
+  width: 55%;
+  text-align: left;
+}
+
+.about img {
+  float: right;
+  border-radius: 50%;
+}
+
+
 footer {
   background-color: darkslategrey;
   text-align: center;
   color: whitesmoke;
+}
+
+footer a {
+  padding: 10px;
 }
 
 footer a, footer h2 {

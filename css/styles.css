@@ -31,8 +31,8 @@ h1 {
   font-weight: 200px;
   font-family: 'Fredoka One', cursive;
   font-weight: normal;
-  font-size: 5em;
-  color: whitesmoke;
+  font-size: 6em;
+  color: moccasin;
   margin-top: 20px;
 }
 
@@ -47,10 +47,16 @@ header p {
 h2 {
   font-family: 'Fredoka One', cursive;
   color: #343434;
-  font-size: 2.5em;
+  font-size: 2.7em;
 }
 
-h3, p, ul, ol {
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #343434;
+  font-size: 1.5em;
+}
+
+h4, h5, p, ul, ol {
   font-family: 'Roboto', sans-serif;
   color: #343435;
 }
@@ -59,11 +65,24 @@ h3, p, ul, ol {
   margin-top: 12px;
 }
 
+/* -----------Hire Me ---------------*/
+.hireMe {
+  padding: 15px 60px;
+  background-color: rgb(250, 107, 82);
+}
 
+.hireMe a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.hireMe a:hover {
+  text-decoration: underline;
+}
 /* --------GitHub Projects----------*/
 
 .projects {
-  background-color: papayawhip;
+  background-color: ghostwhite;
 }
 
 .projects img {
@@ -73,13 +92,14 @@ h3, p, ul, ol {
   margin-right: 30px;
   margin-bottom: 30px;
   margin-top: 30px;
+  border-radius: 3px;
 }
 
 .project-item {
   overflow: hidden;
 }
 
-.projects h3 {
+.projects h4 {
   margin-top: 30px;
 }
 
@@ -104,7 +124,7 @@ h3, p, ul, ol {
 /* --------Jobs & Skills----------*/
 
 .jobs {
-  background-color: plum;
+  background-color: rgb(250, 188, 182);
 }
 
 .jobs li {
@@ -116,7 +136,7 @@ h3, p, ul, ol {
 }
 
 .education {
-  background-color: olive;
+  background-color: rgb(97, 122, 53);
 }
 
 .divide {
@@ -127,7 +147,7 @@ h3, p, ul, ol {
 /* --------About Me----------*/
 
 .about {
-  background-color: tomato;
+  background-color: rgb(250, 107, 82);
 }
 
 .about p {

@@ -6,11 +6,20 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .content {
   margin: 0 auto;
-  width: 900px;
-  padding: 60px 0;
+  max-width: 1000px;
+  width: 85%;
+  padding: 60px 50px;
 }
+
+
+/* --------Header----------*/
 
 header {
   background-color: cornflowerblue;
@@ -35,15 +44,6 @@ header p {
   font-style: bold;
 }
 
-.divide {
-  color: lightsalmon;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 h2 {
   font-family: 'Fredoka One', cursive;
   color: #343434;
@@ -58,6 +58,9 @@ h3, p, ul, ol {
 .content h2 {
   margin-top: 12px;
 }
+
+
+/* --------GitHub Projects----------*/
 
 .projects {
   background-color: papayawhip;
@@ -97,6 +100,9 @@ h3, p, ul, ol {
   margin-bottom: 30px;
 }
 
+
+/* --------Jobs & Skills----------*/
+
 .jobs {
   background-color: plum;
 }
@@ -113,6 +119,13 @@ h3, p, ul, ol {
   background-color: olive;
 }
 
+.divide {
+  color: lightsalmon;
+}
+
+
+/* --------About Me----------*/
+
 .about {
   background-color: tomato;
 }
@@ -127,7 +140,11 @@ h3, p, ul, ol {
   border-radius: 50%;
   width: 325px;
   height: 325px;
+  margin: 30px;
 }
+
+
+/* --------Contact Info----------*/
 
 footer {
   background-color: darkslategrey;
@@ -136,9 +153,47 @@ footer {
 }
 
 footer a {
-  padding: 10px;
+  padding: 20px;
 }
 
 footer a, footer h2 {
   color: whitesmoke;
+}
+
+
+/* --------Media Queries----------*/
+@media screen and (max-width: 1000px) {
+  .projects img {
+    float: none;
+  }
+  .skills {
+    float: none;
+  }
+  .about img {
+    float: none;
+    margin: 0;
+  }
+  .content p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  header, footer {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+  header p {
+    font-size: 1em;
+  }
+  .about img {
+    width: 200px;
+    height: 200px;
+  }
+  .projects img {
+    margin: 0;
+  }
 }

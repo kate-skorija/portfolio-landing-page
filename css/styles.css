@@ -35,6 +35,10 @@ header p {
   font-style: bold;
 }
 
+.divide {
+  color: lightsalmon;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -98,8 +102,7 @@ h3, p, ul, ol {
 }
 
 .jobs li {
-  padding: 5px;
-  font-size: 700;
+  padding: 6px;
 }
 
 .skills {

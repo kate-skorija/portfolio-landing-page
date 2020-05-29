@@ -1,0 +1,23 @@
+header {
+  background-color: lightsteelblue;
+}
+
+.projects {
+  background-color: papayawhip;
+}
+
+.jobs {
+  background-color: plum;
+}
+
+.education {
+  background-color: olive;
+}
+
+.about {
+  background-color: tomato;
+}
+
+footer {
+  background-color: darkslategrey;
+}

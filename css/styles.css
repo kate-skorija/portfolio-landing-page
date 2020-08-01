@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   width: 85%;
-  padding: 60px 50px;
+  padding: 50px 50px;
 }
 
 
@@ -40,8 +40,6 @@ header p {
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  font-weight: 700px;
-  font-style: bold;
 }
 
 h2 {
@@ -67,8 +65,14 @@ h4, h5, p, ul, ol {
 
 /* -----------Hire Me ---------------*/
 .hireMe {
-  padding: 15px 60px;
+  padding: 40px 150px;
   background-color: rgb(250, 107, 82);
+  text-align: center;
+}
+
+.hireMe p {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .hireMe a {
@@ -200,17 +204,27 @@ footer a, footer h2 {
   .project-item {
     padding: 20px 0;
   }
+  .hireMe {
+    padding: 40px 60px;
+  }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   h1 {
-    font-size: 3.5em;
+    font-size: 4em;
   }
   header p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .about img {
     width: 200px;
     height: 200px;
+  }
+  .content, .hireMe {
+    padding: 40px;
+  }
+
+  .hireMe {
+    font-size: 1em;
   }
 }

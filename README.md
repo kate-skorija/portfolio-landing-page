@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a portfolio landing page for my programming portfolio! To learn more about me and my skills, view [the published site](https://kate-skorija.github.io/portfolio-landing-page/). It includes examples of my work as well as information about my education, background, and interests. Thanks for reading!
+This is a portfolio landing page for my programming work. It is the first website I built for my very first code review at Epicodus! To learn more about me and my skills, view [the published site](https://kate-skorija.github.io/portfolio-landing-page/). It includes examples of my work as well as information about my education, background, and interests. Thanks for reading.
 
 ## Setup/Installation Requirements
 
@@ -25,7 +25,7 @@ There are no known bugs at this time.
 
 ## Support and Contact Details
 
-If there are any issues or questions, please contact Kate Skorija at [kateskorija@gmail.com]<kateskorija@gmail.com>
+If there are any issues or questions, please contact Kate Skorija at <kateskorija@gmail.com>
 
 ## Technologies Used
 

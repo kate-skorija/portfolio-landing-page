@@ -1,4 +1,4 @@
-# Portfolio Landing Page
+# [Portfolio Landing Page](https://kate-skorija.github.io/portfolio-landing-page/)
 
 #### Markdown, HTML, and CSS Exercise for Epicodus, 05.29.2020
 
